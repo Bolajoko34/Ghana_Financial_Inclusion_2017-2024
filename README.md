@@ -82,7 +82,7 @@ Develop interest-based savings products, micro-savings tools, and incentive-base
 Closely monitor rising borrowing patterns to mitigate potential liquidity stress and reduce long-term default risks.
 
 ## Dashboard
-![Financial Inclusion Dashboard](dashboard/Dashboard -F.png)
+![Financial Inclusion Dashboard](dashboard/DashboardF.png)
 
 
 ## Project Structure
