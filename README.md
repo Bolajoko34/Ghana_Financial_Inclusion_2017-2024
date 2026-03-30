@@ -1,5 +1,5 @@
 # ghana_financial_inclusion_(2017-2024)
-Financial inclusion analysis using Excel, SQL, Power BI, Python &amp; data from BoG, GSS, and World Bank
+
 Project Overview
 
 This project analyzes the evolution of financial inclusion in Ghana between 2017 and 2024. The analysis integrates mobile money usage data, money supply and deposit data, and regional demographic indicators to evaluate access, usage patterns, deposit stability, and borrowing growth.
@@ -25,6 +25,60 @@ Analyze deposit trends and mobile money usage patterns.
 Explore the relationship between interest rates, deposit behavior, and mobile money adoption.
 Identify financially underserved regions and explain structural gaps.
 Develop data driven recommendations to improve banking access and increase deposit mobilization.
+
+Key Insights
+
+Mobile money adoption increased financial inclusion, but usage remains concentrated in limited transaction types.
+Demand deposits account for 37.5 percent of total deposits, while foreign currency deposits represent 29.4 percent, showing exposure to currency risk.
+Deposits increased from 2017 to 2019, declined in 2020 and 2021, recovered in 2022, and dropped sharply in 2023.
+Financial inclusion remains lower in regions such as Oti and Savannah compared to Greater Accra and Ashanti.
+Borrowing activity shows gradual growth but varies across years and regions.
+
+Business Question
+
+Which factors drive financial inclusion in Ghana, and how do mobile money, deposits, and demographics influence access between 2017 and 2024?
+
+Data Workflow and Tools Used
+
+Data Sources
+
+Global Findex Database for mobile money ownership and usage.
+Bank of Ghana Monetary Survey for deposit and liquidity data.
+Ghana Statistical Service for demographic indicators.
+
+Excel
+
+Cleaned and prepared raw datasets.
+Handled missing values and standardized formats.
+Structured data for database integration.
+
+SQL (MySQL)
+
+Built a relational database from multiple data sources.
+Performed joins to combine financial and demographic datasets.
+Aggregated data for analysis.
+
+Python (Jupyter Notebook in VS Code)
+
+Connected directly to SQL database.
+Queried structured data for analysis.
+Performed trend analysis and validation.
+
+Power BI
+
+Connected directly to MySQL database for data access and analysis.
+Cleaned and transformed data using Power Query.
+Handled missing values and standardized data formats.
+Unpivoted monthly columns into a single “Month” column with corresponding values for proper time series analysis.
+Created a dimensional data model by separating fact and dimension tables.
+Established relationships between tables to support accurate filtering and aggregation.
+Built 7 DAX measures using functions such as CALCULATE, SUM, AVERAGE, and DISTINCTCOUNT to compute key metrics.
+Developed an interactive dashboard to analyze financial inclusion trends, deposit patterns, and regional disparities.
+Enabled filtering by region, year, gender, and income group for deeper analysis.
+
+## Dashboard
+![Financial Inclusion Dashboard](DashboardF.png)
+This dashboard shows trends in financial inclusion, deposit growth, and regional disparities across Ghana.
 
 Methodology
 
@@ -81,8 +135,7 @@ Develop interest-based savings products, micro-savings tools, and incentive-base
 4.Strengthen Monitoring of Borrowing Trends
 Closely monitor rising borrowing patterns to mitigate potential liquidity stress and reduce long-term default risks.
 
-## Dashboard
-![Financial Inclusion Dashboard](DashboardF.png)
+
 
 
 ## Project Structure
@@ -90,14 +143,16 @@ Closely monitor rising borrowing patterns to mitigate potential liquidity stress
 ghana-financial-inclusion-2017-2024/
 │
 ├── data/ 
-│   ├── raw/         # Original datasets ( CSVs, Excel file)
-│   ├── cleaned/     # Cleaned and transformed datasets ready for analysis
+│   ├── raw/         # Original datasets from BoG, GSS, and World Bank in CSV and Excel format.
+│   ├── cleaned/     # cleaned: Processed datasets with missing values handled and variables standardized.
 │
-├── Mysql           # For creating database and query
-├── notebooks/      # Jupyter/Python notebooks for data query
-├── Power BI/       # For dashboard and storytelling
+├── mysql           # Database creation and structured storage of multiple datasets.
+                    # SQL queries for data extraction, joins, and aggregation.
+                    
+├── notebooks/      # Jupyter notebooks in Python for querying SQL database and performing trend analysis.
+├── Power BI/       # Power BI files for data transformation, modeling, and dashboard development.
 │   
-└── README.md       # Project Documentation
+└── README.md       # Project documentation including methodology, insights, and recommendations.
 
 
 
