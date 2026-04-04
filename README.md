@@ -1,10 +1,10 @@
-# ghana_financial_inclusion_(2017-2024)
+# Ghana_Financial_Inclusion(2017-2024)
 
-Project Overview
+# Project Overview
 
 This project analyzes the evolution of financial inclusion in Ghana between 2017 and 2024. The analysis integrates mobile money usage data, money supply and deposit data, and regional demographic indicators to evaluate access, usage patterns, deposit stability, and borrowing growth.
 
-Project Context
+# Project Context
 
 This project was completed as part of a group assignment. I took ownership of the technical execution and was responsible for the end-to-end data analysis process.
 
