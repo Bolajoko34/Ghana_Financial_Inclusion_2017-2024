@@ -73,6 +73,7 @@ Data Sources
 
 # Python (Jupyter Notebook in VS Code)
 
+* Data cleaning
 * Connected directly to SQL database.
 * Queried structured data for analysis.
 * Performed trend analysis and validation.
@@ -163,7 +164,7 @@ ghana-financial-inclusion-2017-2024/
 ├── mysql           # Database creation and structured storage of multiple datasets.
                     # SQL queries for data extraction, joins, and aggregation.
                     
-├── notebooks/      # Jupyter notebooks in Python for querying SQL database and performing trend analysis.
+├── notebooks/      # Jupyter notebooks in Python for data cleaning, querying  and performing trend analysis.
 ├── Power BI/       # Power BI files for data transformation, modeling, and dashboard development.
 │   
 └── README.md       # Project documentation including methodology, insights, and recommendations.
