@@ -84,14 +84,9 @@ Compared mobile money usage and inclusion indicators across regions to identify 
 
  7. Total deposits across demand, savings and time deposits, and foreign currency deposits amounted to approximately 8.05 million. Demand deposits          accounted for the largest share at 3.02 million, followed by savings and time deposits at 2.67 million and foreign currency deposits at 2.37            million. Note: The displayed category values sum to 8.06 million due to rounding, while the total is based on the underlying unrounded values.
 
- 8. Across demand deposits, savings and time deposits, and foreign currency deposits, total deposits peaked in 2019. Deposits declined between 2020 and     2021, recovered in 2022, and then dropped sharply in 2023.
+ 8. Across demand deposits, savings and time deposits, and foreign currency deposits, total deposits peaked in 2019, declined between 2020 and              2021, recovered in 2022, and then dropped sharply in 2023. However, demand and savings deposits reached nearly identical levels in 2022, at             approximately 587,000 each.
 
- 9. 
-
-
-
-5.Borrowing is accelerating
-Average borrowing increased by 85.8 percent between 2017 and 2024, indicating rising reliance on credit.
+ 9. Average borrowing increased by 85.8 percent between 2017 and 2024, indicating a substantial increase in borrowing activity over the period.
 
 
 Data Limitation
@@ -100,21 +95,22 @@ Data Limitation
 * Deposit data spans 2017 to 2023.
 * Average borrowing data is available only for selected years, 2017, 2021, and 2024.
 
-NB:Because deposit data is unavailable for 2024 and borrowing years are discontinuous, full year by year comparison between credit growth and deposit expansion is constrained.
+NB: Because deposit data is unavailable for 2024 and borrowing years are discontinuous, full year by year comparison between credit growth and deposit expansion is constrained.
 
 # RECOMMENDATION
 
-1. Expand Financial Infrastructure in Underserved Regions
-Establish additional banking outlets and mobile money agent networks in regions such as Oti and Savannah to reduce geographic inequality.
+1. Increase digital financial education on mobile money, particularly in the Northern regions, to reduce the digital financial inclusion gap between       Northern and Southern Ghana.
 
-2.Promote Digital Financial Literacy
-Implement targeted financial education programs for rural communities, youth, and low-income groups to improve responsible usage of digital financial services.
+2. Banks should partner with telecommunications network providers to educate customers on how to use mobile banking and mobile money services safely       effectively.
 
-3.Encourage Sustainable Savings Growth
-Develop interest-based savings products, micro-savings tools, and incentive-based programs to maintain deposit stability.
+3. Banks and network providers should strengthen digital infrastructure and provide digital literacy programs focused on mobile banking, mobile            money, and fraud prevention to reduce users’ concerns about fraudulent activities.
 
-4.Strengthen Monitoring of Borrowing Trends
-Closely monitor rising borrowing patterns to mitigate potential liquidity stress and reduce long-term default risks.
+4. Banks and telecommunications companies should develop savings products that encourage individuals to save regularly while providing opportunities to    earn returns on their savings, reducing their reliance on borrowing.
+
+5. Banks should assess borrowers’ income, repayment capacity, and credit history before approving loans to ensure that loans are granted to                individuals who have the capacity to repay on time.
+
+
+
 ## Dashboard
 ![Financial Inclusion Dashboard](DashboardF.png)
 This dashboard shows trends in financial inclusion, deposit growth, and regional disparities across Ghana.
